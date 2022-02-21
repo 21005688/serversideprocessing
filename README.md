@@ -132,7 +132,7 @@ urlpatterns = [
 
 
 ## OUTPUT:
-![output]()
+![output](https://github.com/21005688/serversideprocessing/blob/main/Screenshot%20(4).png)
 
 
 
