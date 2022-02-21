@@ -132,8 +132,9 @@ urlpatterns = [
 
 
 ## OUTPUT:
+![output]()
 
-### Home Page:
+
 
 
 ## Result:
