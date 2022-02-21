@@ -48,7 +48,7 @@ Publish the website in the given URL.
     }
 
     body{
-    background-color: rgb(201, 103, 141);
+    background-color: rgb(230,230,250));
     }
 
     .container{
@@ -59,8 +59,8 @@ Publish the website in the given URL.
     margin-right: auto;
     border-radius: 25px;
     border: 10px solid rgb(72, 97, 45);
-    box-shadow: inset 0 0 25px rgb(151, 216, 82);
-    background-color:rgb(129, 158, 97);
+    box-shadow: inset 0 0 25px rgb(230,230,250);
+    background-color:rgb(255,255,51);
     }
     h1{
         text-align: center;
