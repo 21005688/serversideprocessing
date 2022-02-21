@@ -31,6 +31,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ### Area.html
+~~~
 <!DOCTYPE html>
 <html>
 <head>
@@ -96,7 +97,9 @@ Publish the website in the given URL.
     
 </body>
 </html>
+~~~
 ### View.py
+~~~
 from django.shortcuts import render
 
 def volumecalculation(request):
@@ -113,7 +116,9 @@ def volumecalculation(request):
         context['r']=r
         context['h']=h
     return render(request,"mathapp/area.html",context)
+~~~
 ### Url.py
+~~~
 from django.contrib import admin
 from django.urls import path
 from mathapp import views
@@ -123,6 +128,7 @@ urlpatterns = [
     path('volumeofcylinder/',views.volumecalculation,name="volumeofcylinder"),
     path('',views.volumecalculation,name="volumeofcylinder")
 ]
+~~~
 
 
 ## OUTPUT:
