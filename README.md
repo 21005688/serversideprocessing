@@ -26,7 +26,7 @@ Mention the path of the website in urls.py.
 
 
 ### Step 5:
-Publish the website in the given URL.
+Publish the website in the given URL:http://deepika.student.saveetha.in
 
 
 ## PROGRAM :
